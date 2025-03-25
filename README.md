@@ -39,9 +39,9 @@ df.info()
 ```
 df.set_index("PassengerId",inplace =True)
 df.shape
-~~~
+```
 ![image](https://github.com/22008837/EXNO2DS/assets/120194155/3dfc8d54-6e91-49c0-aee8-056d2c5a3da1)
-~~~
+```
 df.nunique()
 ```
 ![image](https://github.com/22008837/EXNO2DS/assets/120194155/813ba8c4-8905-43fd-8385-0292788883e2)
