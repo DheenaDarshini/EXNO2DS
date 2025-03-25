@@ -1,4 +1,6 @@
 # EXNO2 DS
+## NAME: Dheena Darshini Karthik Dheepan
+## REGNO: 212223240030
 ## AIM:
 To perform Exploratory Data Analysis on the given data set.
       
@@ -75,6 +77,8 @@ df.Pclass.unique()
 df.rename(columns = {'Sex':"Gender"},inplace=True)
 df
 ```
+![Screenshot 2025-03-25 111048](https://github.com/user-attachments/assets/d67f0bc6-b8a2-4db9-aa5a-25bd9f4a2250)
+
 ```
 sns.catplot(x="Gender",col="Survived",kind="count",data=df,height=5,aspect=.7)
 ```
@@ -119,7 +123,7 @@ g.fig.set_size_inches(8,5)
 g.fig.subplots_adjust(top=0.81,right=0.86)
 ax =g.facet_axis(0,0)
 for p in ax.patches:
-ax.text(p.get_x()-0.01,p.get_height()*1.02,'{0:.1f}'.format(p.get_height()),color='red',rotation='horizontal',size='small')
+   ax.text(p.get_x()-0.01,p.get_height()*1.02,'{0:.1f}'.format(p.get_height()),color='red',rotation='horizontal',size='small')
 ```
 ![image](https://github.com/22008837/EXNO2DS/assets/120194155/1c43b392-2ae5-46ca-8255-1d29f5d566cd)
 ```
